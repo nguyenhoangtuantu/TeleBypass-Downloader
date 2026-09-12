@@ -1,0 +1,22 @@
+{
+  "name": {
+    "message": "Telegram bideoak deskargatu - Telegram Downloader",
+    "description": ""
+  },
+  "desc": {
+    "message": "Telegram bideoak deskargatu: bideoak, argazkiak, GIF-ak eta fitxategiak kanal eta talde pribatuetatik Telegram Weben.",
+    "description": ""
+  },
+  "extensionInstalled": {
+    "message": "Extension installed successfully! Please refresh the page to enable new features.",
+    "description": "Message shown when extension is installed"
+  },
+  "export_chat_history": {
+    "message": "Esportatu txataren historia",
+    "description": "Txataren goiburuaren esportazio botoiaren laguntza"
+  },
+  "chat_media_export_title": {
+    "message": "Deskarga aurreratua",
+    "description": "Tooltip for advanced download button in chat header"
+  }
+}

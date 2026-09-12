@@ -1,0 +1,30 @@
+{
+  "name": {
+    "message": "Downloader video Telegram - Scarica contenuti con restrizioni",
+    "description": ""
+  },
+  "desc": {
+    "message": "Scaricare video Telegram: video, foto, GIF e file da canali e gruppi privati in un colpo solo su Telegram Web.",
+    "description": ""
+  },
+  "extensionInstalled": {
+    "message": "Estensione installata con successo! Aggiorna la pagina per abilitare le nuove funzionalità.",
+    "description": "Message shown when extension is installed"
+  },
+  "extensionContextInvalidated": {
+    "message": "TG Downloader è stato aggiornato. Aggiorna la pagina per continuare.",
+    "description": "Banner shown when the extension context is invalidated after an update"
+  },
+  "clickToRefresh": {
+    "message": "Fai clic per aggiornare la pagina",
+    "description": "Tooltip for clickable refresh banners"
+  },
+  "export_chat_history": {
+    "message": "Esporta cronologia chat",
+    "description": "Aiuto per il pulsante di esportazione nell'intestazione del chat"
+  },
+  "chat_media_export_title": {
+    "message": "Download avanzato",
+    "description": "Tooltip for advanced download button in chat header"
+  }
+}

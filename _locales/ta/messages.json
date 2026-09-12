@@ -1,0 +1,22 @@
+{
+  "name": {
+    "message": "Telegram வீடியோ பதிவிறக்கி - தடைசெய்யப்பட்ட மீடியாவைப் பதிவிறக்கவும்",
+    "description": ""
+  },
+  "desc": {
+    "message": "Telegram Video Downloader: தனிப்பட்ட சேனல், குழுக்களில் இருந்து வீடியோ, படம், GIF, கோப்புகளை ஒரே நேரத்தில் பதிவிறக்கவும்.",
+    "description": ""
+  },
+  "extensionInstalled": {
+    "message": "நீட்டிப்பு வெற்றிகரமாக நிறுவப்பட்டது! புதிய அம்சங்களை இயக்க பக்கத்தை புதுப்பிக்கவும்.",
+    "description": "Message shown when extension is installed"
+  },
+  "export_chat_history": {
+    "message": "அரட்டை சமர்ப்பிப்புகளை பதிவிறக்குங்கள்",
+    "description": "அரட்டை சமர்ப்பிப்புகள் சமர்ப்பிப்பு பைன்னில் சமர்ப்பிப்புகள்"
+  },
+  "chat_media_export_title": {
+    "message": "மேம்பட்ட பதிவிறக்கம்",
+    "description": "Tooltip for advanced download button in chat header"
+  }
+}

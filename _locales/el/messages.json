@@ -1,0 +1,22 @@
+{
+  "name": {
+    "message": "Λήψη βίντεο Telegram - Λήψη περιορισμένων πολυμέσων",
+    "description": ""
+  },
+  "desc": {
+    "message": "Κατέβασμα βίντεο Telegram: μαζικά βίντεο, φωτογραφίες, GIF και αρχεία από ιδιωτικά κανάλια και ομάδες στο Telegram Web.",
+    "description": ""
+  },
+  "extensionInstalled": {
+    "message": "Η επέκταση εγκαταστάθηκε επιτυχώς! Ανανεώστε τη σελίδα για να ενεργοποιήσετε νέες λειτουργίες.",
+    "description": "Message shown when extension is installed"
+  },
+  "export_chat_history": {
+    "message": "Εξαγωγή ιστορικού συνομιλίας",
+    "description": "Βοήθεια για το κουμπί εξαγωγής στην κεφαλίδα συνομιλίας"
+  },
+  "chat_media_export_title": {
+    "message": "Προηγμένη λήψη",
+    "description": "Tooltip for advanced download button in chat header"
+  }
+}

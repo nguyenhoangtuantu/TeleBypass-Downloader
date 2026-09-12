@@ -1,0 +1,22 @@
+{
+  "name": {
+    "message": "Telegram Video Downloader - Ladda ner begränsat innehåll",
+    "description": ""
+  },
+  "desc": {
+    "message": "Ladda ner Telegram-video: videor, bilder, GIF och filer på en gång från privata kanaler och grupper på Telegram Web.",
+    "description": ""
+  },
+  "extensionInstalled": {
+    "message": "Tillägget har installerats framgångsrikt! Uppdatera sidan för att aktivera nya funktioner.",
+    "description": "Message shown when extension is installed"
+  },
+  "export_chat_history": {
+    "message": "Exportera chathistorik",
+    "description": "Verktygstips för exportknappen i chatrubriken"
+  },
+  "chat_media_export_title": {
+    "message": "Avancerad nedladdning",
+    "description": "Tooltip for advanced download button in chat header"
+  }
+}

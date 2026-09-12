@@ -1,0 +1,22 @@
+{
+  "name": {
+    "message": "Telegram Video Yükləyici - Məhdud Medianı Yüklə",
+    "description": ""
+  },
+  "desc": {
+    "message": "Telegramdan video endir: gizli kanal və qruplardan video, şəkil, GIF və faylları birlikdə endirin.",
+    "description": ""
+  },
+  "extensionInstalled": {
+    "message": "Extension installed successfully! Please refresh the page to enable new features.",
+    "description": "Message shown when extension is installed"
+  },
+  "export_chat_history": {
+    "message": "Chat tarixini eksport qilish",
+    "description": "Chat header export button tooltip"
+  },
+  "chat_media_export_title": {
+    "message": "Təkmil endirmə",
+    "description": "Tooltip for advanced download button in chat header"
+  }
+}

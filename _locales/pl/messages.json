@@ -1,0 +1,30 @@
+{
+  "name": {
+    "message": "Pobieracz filmów z Telegrama - Pobieraj ograniczone multimedia",
+    "description": ""
+  },
+  "desc": {
+    "message": "Pobierz wideo z Telegrama: wideo, zdjęcia, GIF-y i pliki z prywatnych kanałów i grup za jednym razem.",
+    "description": ""
+  },
+  "extensionInstalled": {
+    "message": "Rozszerzenie zostało pomyślnie zainstalowane! Odśwież stronę, aby włączyć nowe funkcje.",
+    "description": "Message shown when extension is installed"
+  },
+  "extensionContextInvalidated": {
+    "message": "TG Downloader został zaktualizowany. Odśwież stronę, aby kontynuować.",
+    "description": "Banner shown when the extension context is invalidated after an update"
+  },
+  "clickToRefresh": {
+    "message": "Kliknij, aby odświeżyć stronę",
+    "description": "Tooltip for clickable refresh banners"
+  },
+  "export_chat_history": {
+    "message": "Eksportuj historię czatu",
+    "description": "Pomoc dla przycisku eksportu w nagłówku czatu"
+  },
+  "chat_media_export_title": {
+    "message": "Zaawansowane pobieranie",
+    "description": "Tooltip for advanced download button in chat header"
+  }
+}

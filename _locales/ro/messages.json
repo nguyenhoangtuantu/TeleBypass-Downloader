@@ -1,0 +1,22 @@
+{
+  "name": {
+    "message": "Descărcător video Telegram - Descarcă fișiere media restricționate",
+    "description": ""
+  },
+  "desc": {
+    "message": "Descarcă video Telegram: video, poze, GIF-uri și fișiere din canale și grupuri private dintr-o dată pe Telegram Web.",
+    "description": ""
+  },
+  "extensionInstalled": {
+    "message": "Extensia a fost instalată cu succes! Vă rugăm să reîmprospătați pagina pentru a activa noile funcții.",
+    "description": "Message shown when extension is installed"
+  },
+  "export_chat_history": {
+    "message": "Exportați istoricul chatului",
+    "description": "Ajutor pentru butonul de export în capul chatului"
+  },
+  "chat_media_export_title": {
+    "message": "Descărcare avansată",
+    "description": "Tooltip for advanced download button in chat header"
+  }
+}

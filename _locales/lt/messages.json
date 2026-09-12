@@ -1,0 +1,22 @@
+{
+  "name": {
+    "message": "Telegram vaizdo įrašų siųstuvas - Atsisiųsti ribotą mediją",
+    "description": ""
+  },
+  "desc": {
+    "message": "Atsisiųsti video iš Telegram: video, nuotraukos, GIF ir failai iš karto iš privačių kanalų ir grupių Telegram Web.",
+    "description": ""
+  },
+  "extensionInstalled": {
+    "message": "Plėtinys sėkmingai įdiegtas! Atnaujinkite puslapį, kad įjungtumėte naujas funkcijas.",
+    "description": "Message shown when extension is installed"
+  },
+  "export_chat_history": {
+    "message": "Eksportuoti pokalbių istoriją",
+    "description": "Pagalbos būdas eksportavimo mygtuku pokalbių antraštėje"
+  },
+  "chat_media_export_title": {
+    "message": "Išplėstinis atsisiuntimas",
+    "description": "Tooltip for advanced download button in chat header"
+  }
+}

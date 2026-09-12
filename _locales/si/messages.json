@@ -1,0 +1,22 @@
+{
+  "name": {
+    "message": "Telegram වීඩියෝ බාගැනීම - සීමා කළ මාධ්‍ය බාගන්න",
+    "description": ""
+  },
+  "desc": {
+    "message": "Telegram Video Downloader: පුද්ගලික චැනල් සහ කණ්ඩායම්වලින් වීඩියෝ, ඡායාරූප, GIF සහ ගොනු එකවර බාගන්න.",
+    "description": ""
+  },
+  "extensionInstalled": {
+    "message": "Extension installed successfully! Please refresh the page to enable new features.",
+    "description": "Message shown when extension is installed"
+  },
+  "export_chat_history": {
+    "message": "චිත්‍රපට අන්තර්ගත කරන්න",
+    "description": "චිත්‍රපට අන්තර්ගත කරන්න ක්ලික් කිරීමේ මෙවලම"
+  },
+  "chat_media_export_title": {
+    "message": "උසස් බාගත කිරීම",
+    "description": "Tooltip for advanced download button in chat header"
+  }
+}

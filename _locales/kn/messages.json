@@ -1,0 +1,22 @@
+{
+  "name": {
+    "message": "Telegram ವೀಡಿಯೊ ಡೌನ್‌ಲೋಡರ್ - ನಿರ್ಬಂಧಿತ ಮಾಧ್ಯಮವನ್ನು ಡೌನ್‌ಲೋಡ್ ಮಾಡಿ",
+    "description": ""
+  },
+  "desc": {
+    "message": "Telegram Video Downloader: ಖಾಸಗಿ ಚಾನೆಲ್ ಮತ್ತು ಗುಂಪುಗಳಿಂದ ವೀಡಿಯೊ, ಫೋಟೋ, GIF ಮತ್ತು ಫೈಲ್‌ಗಳನ್ನು ಒಟ್ಟಿಗೆ ಡೌನ್‌ಲೋಡ್ ಮಾಡಿ.",
+    "description": ""
+  },
+  "extensionInstalled": {
+    "message": "Extension installed successfully! Please refresh the page to enable new features.",
+    "description": "Message shown when extension is installed"
+  },
+  "export_chat_history": {
+    "message": "ಚಾಟ್ ಇತಿಹಾಸವನ್ನು ಎಕ్ಸ్ಪೋರ್ಟ್ ಮಾಡಿ",
+    "description": "ಚಾಟ್ ಹೆಡರ್ ನಿಂದ ಎಕ్ಸ్ಪೋರ್ಟ್ ಬಟನ್ ಟೂಲ್‌ಪೈನ್ನಲ್ಲಿ ಸಹಾಯ"
+  },
+  "chat_media_export_title": {
+    "message": "ಸುಧಾರಿತ ಡೌನ್‌ಲೋಡ್",
+    "description": "Tooltip for advanced download button in chat header"
+  }
+}

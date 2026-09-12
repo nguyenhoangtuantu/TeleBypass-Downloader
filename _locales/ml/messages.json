@@ -1,0 +1,22 @@
+{
+  "name": {
+    "message": "Telegram വീഡിയോ ഡൗൺലോഡർ - നിയന്ത്രിത മീഡിയ ഡൗൺലോഡ് ചെയ്യുക",
+    "description": ""
+  },
+  "desc": {
+    "message": "Telegram Video Downloader: പ്രൈവറ്റ് ചാനലുകളിൽ നിന്നും ഗ്രൂപ്പുകളിൽ നിന്ന് വീഡിയോ, ഫോട്ടോ, GIF, ഫയലുകൾ ഒരുമിച്ച് ഡൗൺലോഡ് ചെയ്യുക.",
+    "description": ""
+  },
+  "extensionInstalled": {
+    "message": "എക്സ്റ്റൻഷൻ വിജയകരമായി ഇൻസ്റ്റാൾ ചെയ്തു! പുതിയ ഫീച്ചറുകൾ പ്രവർത്തനക്ഷമമാക്കാൻ പേജ് റിഫ്രെഷ് ചെയ്യുക.",
+    "description": "Message shown when extension is installed"
+  },
+  "export_chat_history": {
+    "message": "ചാറ്റ് ഇതിഹാസം നോലൈന്റെയ്യുക",
+    "description": "ചാറ്റ് ഹെഡർ മാത്രം നോലൈന്റെയ്യുക മദ്ദ"
+  },
+  "chat_media_export_title": {
+    "message": "വിപുലമായ ഡൗൺലോഡ്",
+    "description": "Tooltip for advanced download button in chat header"
+  }
+}

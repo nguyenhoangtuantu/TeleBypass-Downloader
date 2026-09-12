@@ -1,0 +1,30 @@
+{
+  "name": {
+    "message": "Trình tải video Telegram - Tải xuống nội dung bị hạn chế",
+    "description": ""
+  },
+  "desc": {
+    "message": "Tải video Telegram: tải cùng lúc video, ảnh, GIF và file từ kênh, nhóm riêng tư trên Telegram Web.",
+    "description": ""
+  },
+  "extensionInstalled": {
+    "message": "Tiện ích đã được cài đặt thành công! Vui lòng làm mới trang để kích hoạt các tính năng mới.",
+    "description": "Message shown when extension is installed"
+  },
+  "extensionContextInvalidated": {
+    "message": "TG Downloader đã được cập nhật. Vui lòng tải lại trang để tiếp tục.",
+    "description": "Banner shown when the extension context is invalidated after an update"
+  },
+  "clickToRefresh": {
+    "message": "Nhấp để tải lại trang",
+    "description": "Tooltip for clickable refresh banners"
+  },
+  "export_chat_history": {
+    "message": "Xuất lịch sử trò chuyện",
+    "description": "Công cụ hiển thị của nút xuất trong tiêu đề trò chuyện"
+  },
+  "chat_media_export_title": {
+    "message": "Tải xuống nâng cao",
+    "description": "Tooltip for advanced download button in chat header"
+  }
+}

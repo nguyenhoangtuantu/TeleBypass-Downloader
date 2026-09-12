@@ -1,0 +1,30 @@
+{
+  "name": {
+    "message": "Telegram Video Downloader - Download Restricted Media",
+    "description": ""
+  },
+  "desc": {
+    "message": "Telegram Video Downloader extension — download Telegram videos, photos, GIFs and files from private/restricted channels & groups.",
+    "description": ""
+  },
+  "extensionInstalled": {
+    "message": "Extension installed successfully! Please refresh the page to enable new features.",
+    "description": "Message shown when extension is installed"
+  },
+  "extensionContextInvalidated": {
+    "message": "TG Downloader has been updated. Please refresh the page to continue.",
+    "description": "Banner shown when the extension context is invalidated after an update"
+  },
+  "clickToRefresh": {
+    "message": "Click to refresh",
+    "description": "Tooltip for clickable refresh banners"
+  },
+  "export_chat_history": {
+    "message": "Export Chat History",
+    "description": "Tooltip for export button in chat header"
+  },
+  "chat_media_export_title": {
+    "message": "Advanced Download",
+    "description": "Tooltip for advanced download button in chat header"
+  }
+}

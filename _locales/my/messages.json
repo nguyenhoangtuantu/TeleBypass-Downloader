@@ -1,0 +1,22 @@
+{
+  "name": {
+    "message": "Telegram ဗီဒီယိုဒေါင်းလုပ်ကိရိယာ - ကန့်သတ်မီဒီယာ ဒေါင်းလုပ်ရန်",
+    "description": ""
+  },
+  "desc": {
+    "message": "တယ်လီဂရမ် ဗီဒီယို ဒေါင်းလုဒ်။ သီးသန့်ချန်နယ်နဲ့အဖွဲ့က ဗီဒီယို၊ ဓာတ်ပုံ၊ GIF နဲ့ဖိုင်တွေကို တစ်ခါတည်း ဒေါင်းလုဒ်လုပ်ပါ။",
+    "description": ""
+  },
+  "extensionInstalled": {
+    "message": "Extension installed successfully! Please refresh the page to enable new features.",
+    "description": "Message shown when extension is installed"
+  },
+  "export_chat_history": {
+    "message": "ခေါင်းစီးဆားအကြောင်းအရာကို ဒေါင်းလုဒ်လုပ်ပါ",
+    "description": "ခေါင်းစီးဆားအကြောင်းအရာဒေါင်းလုဒ်လုပ်ပါချက်အကြောင်းအရာ"
+  },
+  "chat_media_export_title": {
+    "message": "အဆင့်မြင့် ဒေါင်းလုဒ်",
+    "description": "Tooltip for advanced download button in chat header"
+  }
+}

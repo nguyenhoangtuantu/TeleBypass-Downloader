@@ -1,0 +1,22 @@
+{
+  "name": {
+    "message": "Kipakua Video za Telegram - Pakua Media Zilizowekewa Vikwazo",
+    "description": ""
+  },
+  "desc": {
+    "message": "Pakua video za Telegram: video, picha, GIF na faili kutoka chaneli na vikundi vya faragha pamoja kwenye Telegram Web.",
+    "description": ""
+  },
+  "extensionInstalled": {
+    "message": "Extension installed successfully! Please refresh the page to enable new features.",
+    "description": "Message shown when extension is installed"
+  },
+  "export_chat_history": {
+    "message": "Pakua kichwa cha kushiriki",
+    "description": "Kichwa cha kushiriki cha kichwa cha kushiriki"
+  },
+  "chat_media_export_title": {
+    "message": "Upakuaji wa hali ya juu",
+    "description": "Tooltip for advanced download button in chat header"
+  }
+}

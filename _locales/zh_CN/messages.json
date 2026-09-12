@@ -1,0 +1,30 @@
+{
+  "name": {
+    "message": "Telegram视频下载器 - TG下载器",
+    "description": ""
+  },
+  "desc": {
+    "message": "Telegram视频下载器，TG视频下载。批量下载私密频道、群组里的视频、图片、GIF和文件。",
+    "description": ""
+  },
+  "extensionInstalled": {
+    "message": "扩展程序安装成功！请刷新页面以启用新功能。",
+    "description": "Message shown when extension is installed"
+  },
+  "extensionContextInvalidated": {
+    "message": "TG Downloader 已更新，请刷新当前页面以继续使用。",
+    "description": "扩展更新后上下文失效时显示的提示横幅"
+  },
+  "clickToRefresh": {
+    "message": "点击刷新页面",
+    "description": "可点击刷新提示的工具提示"
+  },
+  "export_chat_history": {
+    "message": "导出聊天记录",
+    "description": "聊天头部导出按钮的工具提示"
+  },
+  "chat_media_export_title": {
+    "message": "高级下载",
+    "description": "聊天头部高级下载按钮的工具提示"
+  }
+}

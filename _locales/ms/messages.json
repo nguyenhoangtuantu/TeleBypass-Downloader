@@ -1,0 +1,22 @@
+{
+  "name": {
+    "message": "Pemuat Turun Video Telegram - Muat Turun Media Terhad",
+    "description": ""
+  },
+  "desc": {
+    "message": "Download video Telegram: muat turun sekali gus video, foto, GIF dan fail dari saluran serta kumpulan peribadi.",
+    "description": ""
+  },
+  "extensionInstalled": {
+    "message": "Pemuat turun Telegram - Telegram video downloader",
+    "description": ""
+  },
+  "export_chat_history": {
+    "message": "Eksportkan riwayat chat",
+    "description": "Bantuan untuk butang eksport dalam header chat"
+  },
+  "chat_media_export_title": {
+    "message": "Muat Turun Lanjutan",
+    "description": "Tooltip for advanced download button in chat header"
+  }
+}

@@ -1,0 +1,22 @@
+{
+  "name": {
+    "message": "Telegram ভিডিও ডাউনলোডার - সীমাবদ্ধ মিডিয়া ডাউনলোড করুন",
+    "description": ""
+  },
+  "desc": {
+    "message": "Telegram Video Downloader: প্রাইভেট চ্যানেল ও গ্রুপ থেকে ভিডিও, ছবি, GIF আর ফাইল একসাথে ডাউনলোড করুন।",
+    "description": ""
+  },
+  "extensionInstalled": {
+    "message": "এক্সটেনশন সফলভাবে ইনস্টল হয়েছে! নতুন বৈশিষ্ট্য সক্রিয় করতে পৃষ্ঠা রিফ্রেশ করুন।",
+    "description": "Message shown when extension is installed"
+  },
+  "export_chat_history": {
+    "message": "চ্যাট ইতিহাস এক্সপোর্ট করুন",
+    "description": "চ্যাট হেডারে এক্সপোর্ট বটনের সহায়তা"
+  },
+  "chat_media_export_title": {
+    "message": "উন্নত ডাউনলোড",
+    "description": "Tooltip for advanced download button in chat header"
+  }
+}

@@ -1,0 +1,22 @@
+{
+  "name": {
+    "message": "Изтегляне на видеа от Telegram - Изтегляне на ограничени медии",
+    "description": ""
+  },
+  "desc": {
+    "message": "Свали видео от Telegram: видео, снимки, GIF и файлове от частни канали и групи наведнъж в Telegram Web.",
+    "description": ""
+  },
+  "extensionInstalled": {
+    "message": "Разширението е инсталирано успешно! Моля, обновете страницата, за да активирате новите функции.",
+    "description": "Message shown when extension is installed"
+  },
+  "export_chat_history": {
+    "message": "Изтегляне на чат история",
+    "description": "Помощ за бутона за изтегляне на чат история"
+  },
+  "chat_media_export_title": {
+    "message": "Разширено изтегляне",
+    "description": "Tooltip for advanced download button in chat header"
+  }
+}

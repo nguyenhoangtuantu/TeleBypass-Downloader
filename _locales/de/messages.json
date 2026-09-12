@@ -1,0 +1,30 @@
+{
+  "name": {
+    "message": "Telegram Video Downloader - Eingeschränkte Medien herunterladen",
+    "description": ""
+  },
+  "desc": {
+    "message": "Telegram Video Downloader: Videos, Fotos, GIFs und Dateien aus privaten Kanälen und Gruppen auf einmal herunterladen.",
+    "description": ""
+  },
+  "extensionInstalled": {
+    "message": "Erweiterung erfolgreich installiert! Bitte aktualisieren Sie die Seite, um neue Funktionen zu aktivieren.",
+    "description": "Nachricht, die bei der Installation der Erweiterung angezeigt wird"
+  },
+  "extensionContextInvalidated": {
+    "message": "TG Downloader wurde aktualisiert. Bitte aktualisieren Sie die Seite, um fortzufahren.",
+    "description": "Banner shown when the extension context is invalidated after an update"
+  },
+  "clickToRefresh": {
+    "message": "Zum Aktualisieren klicken",
+    "description": "Tooltip for clickable refresh banners"
+  },
+  "export_chat_history": {
+    "message": "Chat-Verlauf exportieren",
+    "description": "Hilfe für den Export-Button im Chat-Header"
+  },
+  "chat_media_export_title": {
+    "message": "Erweiterter Download",
+    "description": "Tooltip for advanced download button in chat header"
+  }
+}

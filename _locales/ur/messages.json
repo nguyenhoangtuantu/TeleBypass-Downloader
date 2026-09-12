@@ -1,0 +1,22 @@
+{
+  "name": {
+    "message": "Telegram ویڈیو ڈاؤن لوڈر - محدود میڈیا ڈاؤن لوڈ کریں",
+    "description": ""
+  },
+  "desc": {
+    "message": "Telegram Video Downloader: پرائیویٹ چینل اور گروپ سے ویڈیو، تصاویر، GIF اور فائلیں ایک ساتھ ڈاؤنلوڈ کریں۔",
+    "description": ""
+  },
+  "extensionInstalled": {
+    "message": "Extension installed successfully! Please refresh the page to enable new features.",
+    "description": "Message shown when extension is installed"
+  },
+  "export_chat_history": {
+    "message": "چت تاریخ کو خارج کریں",
+    "description": "چت ہیڈر میں خارج کرنے والے بٹن کا خیالت"
+  },
+  "chat_media_export_title": {
+    "message": "جدید ڈاؤن لوڈ",
+    "description": "Tooltip for advanced download button in chat header"
+  }
+}

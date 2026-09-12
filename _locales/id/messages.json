@@ -1,0 +1,30 @@
+{
+  "name": {
+    "message": "Pengunduh Video Telegram - Unduh Media Terbatas",
+    "description": ""
+  },
+  "desc": {
+    "message": "Download video Telegram: unduh sekaligus video, foto, GIF, dan file dari channel serta grup privat.",
+    "description": ""
+  },
+  "extensionInstalled": {
+    "message": "Ekstensi berhasil diinstal! Silakan muat ulang halaman untuk mengaktifkan fitur baru.",
+    "description": "Message shown when extension is installed"
+  },
+  "extensionContextInvalidated": {
+    "message": "TG Downloader telah diperbarui. Harap muat ulang halaman untuk melanjutkan.",
+    "description": "Banner shown when the extension context is invalidated after an update"
+  },
+  "clickToRefresh": {
+    "message": "Klik untuk memuat ulang halaman",
+    "description": "Tooltip for clickable refresh banners"
+  },
+  "export_chat_history": {
+    "message": "Ekspor riwayat obrolan",
+    "description": "Bantuan untuk tombol ekspor dalam header obrolan"
+  },
+  "chat_media_export_title": {
+    "message": "Unduhan lanjutan",
+    "description": "Tooltip for advanced download button in chat header"
+  }
+}

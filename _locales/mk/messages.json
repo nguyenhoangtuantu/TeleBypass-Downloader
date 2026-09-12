@@ -1,0 +1,22 @@
+{
+  "name": {
+    "message": "Преземач на видеа од Telegram - Преземи ограничени медиуми",
+    "description": ""
+  },
+  "desc": {
+    "message": "Преземи видео од Telegram: видеа, фотографии, GIF и датотеки од приватни канали и групи наеднаш на Telegram Web.",
+    "description": ""
+  },
+  "extensionInstalled": {
+    "message": "Extension installed successfully! Please refresh the page to enable new features.",
+    "description": "Message shown when extension is installed"
+  },
+  "export_chat_history": {
+    "message": "Извези ја историјата на чатот",
+    "description": "Помош за копчето за изведување во главата на чатот"
+  },
+  "chat_media_export_title": {
+    "message": "Напредно преземање",
+    "description": "Tooltip for advanced download button in chat header"
+  }
+}

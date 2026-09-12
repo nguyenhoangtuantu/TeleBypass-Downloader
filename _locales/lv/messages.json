@@ -1,0 +1,22 @@
+{
+  "name": {
+    "message": "Telegram video lejupielādētājs - Lejupielādēt ierobežotu multividi",
+    "description": ""
+  },
+  "desc": {
+    "message": "Lejupielādēt Telegram video: video, foto, GIF un faili uzreiz no privātiem kanāliem un grupām Telegram Web.",
+    "description": ""
+  },
+  "extensionInstalled": {
+    "message": "Paplašinājums veiksmīgi instalēts! Lūdzu, atsvaidziniet lapu, lai iespējotu jaunās funkcijas.",
+    "description": "Message shown when extension is installed"
+  },
+  "export_chat_history": {
+    "message": "Eksportēt tērzēšanas vēsturi",
+    "description": "Palīdzība ar eksportēšanas pogu tērzēšanas vēstures galvenē"
+  },
+  "chat_media_export_title": {
+    "message": "Paplašināta lejupielāde",
+    "description": "Tooltip for advanced download button in chat header"
+  }
+}

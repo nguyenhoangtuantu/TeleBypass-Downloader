@@ -1,0 +1,22 @@
+{
+  "name": {
+    "message": "Shkarkues videosh nga Telegram - Shkarko media të kufizuara",
+    "description": ""
+  },
+  "desc": {
+    "message": "Shkarko video nga Telegram: video, foto, GIF dhe skedarë nga kanale dhe grupe private njëherësh në Telegram Web.",
+    "description": ""
+  },
+  "extensionInstalled": {
+    "message": "Extension installed successfully! Please refresh the page to enable new features.",
+    "description": "Message shown when extension is installed"
+  },
+  "export_chat_history": {
+    "message": "Eksportoni historikun e chatit",
+    "description": "Ndihmë për butonin e eksportimit në kokën e chatit"
+  },
+  "chat_media_export_title": {
+    "message": "Shkarkim i avancuar",
+    "description": "Tooltip for advanced download button in chat header"
+  }
+}

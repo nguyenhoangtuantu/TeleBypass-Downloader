@@ -1,0 +1,22 @@
+{
+  "name": {
+    "message": "Telegram भिडियो डाउनलोडर - प्रतिबन्धित मिडिया डाउनलोड गर्नुहोस्",
+    "description": ""
+  },
+  "desc": {
+    "message": "Telegram Video Downloader: निजी च्यानल र ग्रुपबाट भिडियो, फोटो, GIF र फाइल एकसाथ डाउनलोड गर्नुहोस्।",
+    "description": ""
+  },
+  "extensionInstalled": {
+    "message": "Extension installed successfully! Please refresh the page to enable new features.",
+    "description": "Message shown when extension is installed"
+  },
+  "export_chat_history": {
+    "message": "चैट इतिहास नोलाइन गर्नुहोस्",
+    "description": "चैट हेडर मा नोलाइन गर्नुहोस् मद्दत"
+  },
+  "chat_media_export_title": {
+    "message": "उन्नत डाउनलोड",
+    "description": "Tooltip for advanced download button in chat header"
+  }
+}

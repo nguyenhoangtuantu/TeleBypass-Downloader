@@ -1,0 +1,30 @@
+{
+  "name": {
+    "message": "Telegram影片下載器 - Telegram Downloader",
+    "description": ""
+  },
+  "desc": {
+    "message": "Telegram影片下載器，TG影片下載。批次下載私人頻道、群組的影片、照片、GIF 和檔案。",
+    "description": ""
+  },
+  "extensionInstalled": {
+    "message": "擴充功能安裝成功！請重新整理頁面以啟用新功能。",
+    "description": "擴充功能安裝時顯示的訊息"
+  },
+  "extensionContextInvalidated": {
+    "message": "TG Downloader 已更新，請重新整理目前頁面後繼續使用。",
+    "description": "擴充功能更新後上下文失效時顯示的提示橫幅"
+  },
+  "clickToRefresh": {
+    "message": "點擊重新整理頁面",
+    "description": "可點擊重新整理提示的工具提示"
+  },
+  "export_chat_history": {
+    "message": "導出聊天記錄",
+    "description": "聊天頭部導出按鈕的工具提示"
+  },
+  "chat_media_export_title": {
+    "message": "進階下載",
+    "description": "聊天头部高级下载按钮的工具提示"
+  }
+}

@@ -1,0 +1,30 @@
+{
+  "name": {
+    "message": "Telegram動画ダウンローダー - 制限付きメディアをダウンロード",
+    "description": ""
+  },
+  "desc": {
+    "message": "Telegram動画ダウンロード。非公開チャンネルやグループの動画・写真・GIF・ファイルをまとめてダウンロード。ウェブ版対応。",
+    "description": ""
+  },
+  "extensionInstalled": {
+    "message": "拡張機能が正常にインストールされました！新機能を有効にするためにページを更新してください。",
+    "description": "拡張機能インストール時に表示されるメッセージ"
+  },
+  "extensionContextInvalidated": {
+    "message": "TG Downloader が更新されました。続行するにはページを再読み込みしてください。",
+    "description": "Banner shown when the extension context is invalidated after an update"
+  },
+  "clickToRefresh": {
+    "message": "クリックしてページを再読み込み",
+    "description": "Tooltip for clickable refresh banners"
+  },
+  "export_chat_history": {
+    "message": "チャット履歴をエクスポート",
+    "description": "チャットヘッダーのエクスポートボタンのヘルプ"
+  },
+  "chat_media_export_title": {
+    "message": "高度なダウンロード",
+    "description": "Tooltip for advanced download button in chat header"
+  }
+}

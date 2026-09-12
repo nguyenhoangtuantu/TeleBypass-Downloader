@@ -1,0 +1,30 @@
+{
+  "name": {
+    "message": "Téléchargeur de vidéos Telegram - Télécharger les médias restreints",
+    "description": ""
+  },
+  "desc": {
+    "message": "Télécharger vidéo Telegram: vidéos, photos, GIF et fichiers depuis des chaînes et groupes privés, sur Telegram Web.",
+    "description": ""
+  },
+  "extensionInstalled": {
+    "message": "Extension installée avec succès ! Veuillez actualiser la page pour activer les nouvelles fonctionnalités.",
+    "description": "Message affiché lors de l'installation de l'extension"
+  },
+  "extensionContextInvalidated": {
+    "message": "TG Downloader a été mis à jour. Veuillez actualiser la page pour continuer.",
+    "description": "Banner shown when the extension context is invalidated after an update"
+  },
+  "clickToRefresh": {
+    "message": "Cliquer pour actualiser la page",
+    "description": "Tooltip for clickable refresh banners"
+  },
+  "export_chat_history": {
+    "message": "Exporter l'historique du chat",
+    "description": "Aide pour le bouton d'exportation dans l'en-tête du chat"
+  },
+  "chat_media_export_title": {
+    "message": "Téléchargement avancé",
+    "description": "Tooltip for advanced download button in chat header"
+  }
+}

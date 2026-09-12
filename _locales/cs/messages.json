@@ -1,0 +1,22 @@
+{
+  "name": {
+    "message": "Stahovač videí z Telegramu - Stahování omezených médií",
+    "description": ""
+  },
+  "desc": {
+    "message": "Stáhnout video z Telegramu: videa, fotky, GIF a soubory z privátních kanálů a skupin najednou na Telegram Web.",
+    "description": ""
+  },
+  "extensionInstalled": {
+    "message": "Rozšíření bylo úspěšně nainstalováno! Obnovte stránku pro aktivaci nových funkcí.",
+    "description": "Message shown when extension is installed"
+  },
+  "export_chat_history": {
+    "message": "Exportovat chatovou historii",
+    "description": "Návod pro tlačítko exportu v chatové hlavičce"
+  },
+  "chat_media_export_title": {
+    "message": "Pokročilé stahování",
+    "description": "Tooltip for advanced download button in chat header"
+  }
+}

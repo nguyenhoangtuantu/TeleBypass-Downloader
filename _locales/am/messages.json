@@ -1,0 +1,22 @@
+{
+  "name": {
+    "message": "የTelegram ቪዲዮ አውራጅ - የተገደቡ ሚዲያዎችን አውርድ",
+    "description": ""
+  },
+  "desc": {
+    "message": "ቴሌግራም ቪዲዮ አውርድ፡ ከግል ቻናሎችና ቡድኖች ቪዲዮ፣ ፎቶ፣ GIF እና ፋይሎችን በአንድ ጊዜ ያውርዱ።",
+    "description": ""
+  },
+  "extensionInstalled": {
+    "message": "Extension installed successfully! Please refresh the page to enable new features.",
+    "description": "Message shown when extension is installed"
+  },
+  "export_chat_history": {
+    "message": "ተሌግራም ቪዲዮ አውራጃ - TG ይዘት አውራጃ",
+    "description": "Tooltip for export button in chat header"
+  },
+  "chat_media_export_title": {
+    "message": "የላቀ ማውረድ",
+    "description": "Tooltip for advanced download button in chat header"
+  }
+}

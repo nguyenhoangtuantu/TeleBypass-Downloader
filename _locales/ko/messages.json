@@ -1,0 +1,30 @@
+{
+  "name": {
+    "message": "텔레그램 동영상 다운로더 - 제한된 미디어 다운로드",
+    "description": ""
+  },
+  "desc": {
+    "message": "텔레그램 동영상 다운로드. 비공개 채널·그룹의 동영상, 사진, GIF, 파일을 한 번에 다운로드하세요.",
+    "description": ""
+  },
+  "extensionInstalled": {
+    "message": "확장 프로그램이 성공적으로 설치되었습니다! 새로운 기능을 활성화하려면 페이지를 새로 고침하세요.",
+    "description": "확장 프로그램 설치 시 표시되는 메시지"
+  },
+  "extensionContextInvalidated": {
+    "message": "TG Downloader가 업데이트되었습니다. 계속하려면 페이지를 새로고침하세요.",
+    "description": "Banner shown when the extension context is invalidated after an update"
+  },
+  "clickToRefresh": {
+    "message": "클릭하여 페이지 새로고침",
+    "description": "Tooltip for clickable refresh banners"
+  },
+  "export_chat_history": {
+    "message": "채팅 기록 내보내기",
+    "description": "채팅 헤더에서 내보내기 버튼에 대한 도움말"
+  },
+  "chat_media_export_title": {
+    "message": "고급 다운로드",
+    "description": "Tooltip for advanced download button in chat header"
+  }
+}

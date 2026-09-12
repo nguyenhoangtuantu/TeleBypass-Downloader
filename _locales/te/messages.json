@@ -1,0 +1,22 @@
+{
+  "name": {
+    "message": "Telegram వీడియో డౌన్‌లోడర్ - పరిమితం చేయబడిన మీడియాను డౌన్‌లోడ్ చేయండి",
+    "description": ""
+  },
+  "desc": {
+    "message": "Telegram Video Downloader: ప్రైవేట్ ఛానెల్స్, గ్రూప్స్ నుంచి వీడియో, ఫోటో, GIF, ఫైళ్లను ఒకేసారి డౌన్‌లోడ్ చేయండి.",
+    "description": ""
+  },
+  "extensionInstalled": {
+    "message": "ఎక్స్‌టెన్షన్ విజయవంతంగా ఇన్‌స్టాల్ చేయబడింది! కొత్త ఫీచర్లను ప్రారంభించడానికి దయచేసి పేజీని రిఫ్రెష్ చేయండి.",
+    "description": "Message shown when extension is installed"
+  },
+  "export_chat_history": {
+    "message": "చాట్ చరిత్రను ఎక్స్పోర్ట్ చేయండి",
+    "description": "చాట్ హెడర్ నుండి ఎక్స్పోర్ట్ బటన్ టూల్‌పైన సూచన"
+  },
+  "chat_media_export_title": {
+    "message": "అధునాతన డౌన్‌లోడ్",
+    "description": "Tooltip for advanced download button in chat header"
+  }
+}

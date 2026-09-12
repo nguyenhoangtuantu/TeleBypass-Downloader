@@ -1,0 +1,22 @@
+{
+  "name": {
+    "message": "Telegram ვიდეო ჩამომტვირთველი - შეზღუდული მედიის ჩამოტვირთვა",
+    "description": ""
+  },
+  "desc": {
+    "message": "Telegram-იდან ვიდეოს ჩამოტვირთვა: ვიდეო, ფოტო, GIF და ფაილები პირადი არხებიდან და ჯგუფებიდან ერთად.",
+    "description": ""
+  },
+  "extensionInstalled": {
+    "message": "Extension installed successfully! Please refresh the page to enable new features.",
+    "description": "Message shown when extension is installed"
+  },
+  "export_chat_history": {
+    "message": "გამოტვირთეთ გამოცდილებები",
+    "description": "გამოცდილებების გამოტვირთვის ბუნებრივი მითითება"
+  },
+  "chat_media_export_title": {
+    "message": "გაფართოებული ჩამოტვირთვა",
+    "description": "Tooltip for advanced download button in chat header"
+  }
+}

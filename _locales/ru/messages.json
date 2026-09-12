@@ -1,0 +1,30 @@
+{
+  "name": {
+    "message": "Скачиватель видео из Telegram — Скачать ограниченные медиа",
+    "description": ""
+  },
+  "desc": {
+    "message": "Скачать видео с Телеграм: видео, фото, GIF и файлы из закрытых каналов и групп — сразу несколько, веб-версия.",
+    "description": ""
+  },
+  "extensionInstalled": {
+    "message": "Расширение успешно установлено! Пожалуйста, обновите страницу, чтобы включить новые функции.",
+    "description": "Сообщение, отображаемое при установке расширения"
+  },
+  "extensionContextInvalidated": {
+    "message": "TG Downloader был обновлен. Чтобы продолжить, обновите страницу.",
+    "description": "Banner shown when the extension context is invalidated after an update"
+  },
+  "clickToRefresh": {
+    "message": "Нажмите, чтобы обновить страницу",
+    "description": "Tooltip for clickable refresh banners"
+  },
+  "export_chat_history": {
+    "message": "Экспортировать историю чата",
+    "description": "Подсказка для кнопки экспорта в заголовке чата"
+  },
+  "chat_media_export_title": {
+    "message": "Расширенная загрузка",
+    "description": "Tooltip for advanced download button in chat header"
+  }
+}

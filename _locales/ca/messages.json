@@ -1,0 +1,22 @@
+{
+  "name": {
+    "message": "Descarregar vídeos de Telegram - Telegram Downloader",
+    "description": ""
+  },
+  "desc": {
+    "message": "Descarregar vídeos Telegram: vídeos, fotos, GIF i fitxers de canals i grups privats de cop a Telegram Web.",
+    "description": ""
+  },
+  "extensionInstalled": {
+    "message": "Extensió instal·lada correctament! Si us plau, actualitzeu la pàgina per activar les noves funcions.",
+    "description": "Message shown when extension is installed"
+  },
+  "export_chat_history": {
+    "message": "Exportar història de chat",
+    "description": "Ajuda per al botó d'exportació en el capçalera de chat"
+  },
+  "chat_media_export_title": {
+    "message": "Descàrrega avançada",
+    "description": "Tooltip for advanced download button in chat header"
+  }
+}

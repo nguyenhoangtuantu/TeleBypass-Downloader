@@ -1,0 +1,22 @@
+{
+  "name": {
+    "message": "Preuzimanje Telegram videa - Preuzmi ograničeni sadržaj",
+    "description": ""
+  },
+  "desc": {
+    "message": "Preuzmi video s Telegrama: video, fotografije, GIF-ove i datoteke iz privatnih kanala i grupa odjednom na Telegram Webu.",
+    "description": ""
+  },
+  "extensionInstalled": {
+    "message": "Proširenje je uspješno instalirano! Osvježite stranicu da biste omogućili nove značajke.",
+    "description": "Message shown when extension is installed"
+  },
+  "export_chat_history": {
+    "message": "Izvezi povijest chata",
+    "description": "Pomoć za gumb izvoza u zaglavlju chata"
+  },
+  "chat_media_export_title": {
+    "message": "Napredno preuzimanje",
+    "description": "Tooltip for advanced download button in chat header"
+  }
+}

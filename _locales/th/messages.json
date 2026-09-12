@@ -1,0 +1,30 @@
+{
+  "name": {
+    "message": "ตัวดาวน์โหลดวิดีโอ Telegram - ดาวน์โหลดสื่อที่ถูกจำกัด",
+    "description": ""
+  },
+  "desc": {
+    "message": "ดาวน์โหลดวิดีโอ Telegram โหลดคลิปเทเลแกรม จากช่องและกลุ่มส่วนตัว ได้วิดีโอ รูป GIF และไฟล์พร้อมกัน",
+    "description": ""
+  },
+  "extensionInstalled": {
+    "message": "ติดตั้งส่วนขยายสำเร็จ! โปรดรีเฟรชหน้าเพื่อเปิดใช้งานฟีเจอร์ใหม่",
+    "description": "Message shown when extension is installed"
+  },
+  "extensionContextInvalidated": {
+    "message": "TG Downloader ได้รับการอัปเดตแล้ว โปรดรีเฟรชหน้าเพื่อดำเนินการต่อ",
+    "description": "Banner shown when the extension context is invalidated after an update"
+  },
+  "clickToRefresh": {
+    "message": "คลิกเพื่อรีเฟรชหน้า",
+    "description": "Tooltip for clickable refresh banners"
+  },
+  "export_chat_history": {
+    "message": "ส่งออกประวัติการแชท",
+    "description": "คำแนะนำของปุ่มส่งออกในหัวข้อแชท"
+  },
+  "chat_media_export_title": {
+    "message": "ดาวน์โหลดขั้นสูง",
+    "description": "Tooltip for advanced download button in chat header"
+  }
+}

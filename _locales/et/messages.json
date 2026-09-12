@@ -1,0 +1,22 @@
+{
+  "name": {
+    "message": "Telegrami videote allalaadija - Laadi alla piiratud meedia",
+    "description": ""
+  },
+  "desc": {
+    "message": "Laadi alla Telegrami video: videod, fotod, GIF-id ja failid korraga privaatsetest kanalitest ja gruppidest.",
+    "description": ""
+  },
+  "extensionInstalled": {
+    "message": "Laiendus on edukalt installitud! Uute funktsioonide lubamiseks värskendage lehte.",
+    "description": "Message shown when extension is installed"
+  },
+  "export_chat_history": {
+    "message": "Chati ajaloo eksportimine",
+    "description": "Chati pealkirja eksportimise nupu abi"
+  },
+  "chat_media_export_title": {
+    "message": "Täiustatud allalaadimine",
+    "description": "Tooltip for advanced download button in chat header"
+  }
+}

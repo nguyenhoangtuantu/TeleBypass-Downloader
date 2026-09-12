@@ -1,0 +1,30 @@
+{
+  "name": {
+    "message": "منزّل فيديوهات تيليجرام - تنزيل الوسائط المقيّدة",
+    "description": ""
+  },
+  "desc": {
+    "message": "تحميل فيديو تليجرام: حمّل فيديو وصور وGIF وملفات من القنوات والمجموعات الخاصة مرة واحدة على تيليجرام ويب.",
+    "description": ""
+  },
+  "extensionInstalled": {
+    "message": "تم تثبيت الإضافة بنجاح! يرجى تحديث الصفحة لتفعيل الميزات الجديدة.",
+    "description": "Message shown when extension is installed"
+  },
+  "extensionContextInvalidated": {
+    "message": "تم تحديث TG Downloader. يرجى تحديث الصفحة للمتابعة.",
+    "description": "Banner shown when the extension context is invalidated after an update"
+  },
+  "clickToRefresh": {
+    "message": "انقر لتحديث الصفحة",
+    "description": "Tooltip for clickable refresh banners"
+  },
+  "export_chat_history": {
+    "message": "تصدير تاريخ المحادثة",
+    "description": "تلميح للزر تصدير في رأس المحادثة"
+  },
+  "chat_media_export_title": {
+    "message": "تنزيل متقدم",
+    "description": "Tooltip for advanced download button in chat header"
+  }
+}

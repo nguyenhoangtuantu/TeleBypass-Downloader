@@ -1,0 +1,22 @@
+{
+  "name": {
+    "message": "Telegram video yuklagich - Cheklangan mediani yuklab olish",
+    "description": ""
+  },
+  "desc": {
+    "message": "Telegram video yuklab olish: yopiq kanal va guruhlardan video, rasm, GIF va fayllarni birga yuklab oling.",
+    "description": ""
+  },
+  "extensionInstalled": {
+    "message": "Extension installed successfully! Please refresh the page to enable new features.",
+    "description": "Message shown when extension is installed"
+  },
+  "export_chat_history": {
+    "message": "Chat tarixini eksport qilish",
+    "description": "Chat header export button tooltip"
+  },
+  "chat_media_export_title": {
+    "message": "Kengaytirilgan yuklab olish",
+    "description": "Tooltip for advanced download button in chat header"
+  }
+}

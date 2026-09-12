@@ -1,0 +1,30 @@
+{
+  "name": {
+    "message": "Telegram Video İndirici - Kısıtlı Medyayı İndir",
+    "description": ""
+  },
+  "desc": {
+    "message": "Telegram video indir: gizli kanal ve gruplardan video, fotoğraf, GIF ve dosyaları toplu indirin. Telegram Web.",
+    "description": ""
+  },
+  "extensionInstalled": {
+    "message": "Uzantı başarıyla yüklendi! Yeni özellikleri etkinleştirmek için lütfen sayfayı yenileyin.",
+    "description": "Message shown when extension is installed"
+  },
+  "extensionContextInvalidated": {
+    "message": "TG Downloader güncellendi. Devam etmek için lütfen sayfayı yenileyin.",
+    "description": "Banner shown when the extension context is invalidated after an update"
+  },
+  "clickToRefresh": {
+    "message": "Sayfayı yenilemek için tıklayın",
+    "description": "Tooltip for clickable refresh banners"
+  },
+  "export_chat_history": {
+    "message": "Sohbet geçmişini dışa aktar",
+    "description": "Sohbet başlığındaki dışa aktar düğmesinin ipucu"
+  },
+  "chat_media_export_title": {
+    "message": "Gelişmiş İndirme",
+    "description": "Tooltip for advanced download button in chat header"
+  }
+}

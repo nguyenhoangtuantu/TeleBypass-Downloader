@@ -1,0 +1,30 @@
+{
+  "name": {
+    "message": "מוריד סרטונים מטלגרם - הורדת מדיה מוגבלת",
+    "description": ""
+  },
+  "desc": {
+    "message": "הורדת סרטונים מטלגרם: סרטונים, תמונות, GIF וקבצים מערוצים וקבוצות פרטיים ב-Telegram Web.",
+    "description": ""
+  },
+  "extensionInstalled": {
+    "message": "התוסף הותקן בהצלחה! אנא רענן את הדף כדי להפעיל תכונות חדשות.",
+    "description": "Message shown when extension is installed"
+  },
+  "extensionContextInvalidated": {
+    "message": "TG Downloader עודכן. יש לרענן את הדף כדי להמשיך.",
+    "description": "Banner shown when the extension context is invalidated after an update"
+  },
+  "clickToRefresh": {
+    "message": "לחץ כדי לרענן את הדף",
+    "description": "Tooltip for clickable refresh banners"
+  },
+  "export_chat_history": {
+    "message": "ייצא כינוי צ'אט",
+    "description": "עזרה לכפתור ייצוא בכותרת צ'אט"
+  },
+  "chat_media_export_title": {
+    "message": "הורדה מתקדמת",
+    "description": "Tooltip for advanced download button in chat header"
+  }
+}

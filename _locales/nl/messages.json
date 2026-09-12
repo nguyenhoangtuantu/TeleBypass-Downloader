@@ -1,0 +1,30 @@
+{
+  "name": {
+    "message": "Telegram Video Downloader - Beperkte media downloaden",
+    "description": ""
+  },
+  "desc": {
+    "message": "Telegram video downloaden: video's, foto's, GIF's en bestanden uit privékanalen en groepen in één keer op Telegram Web.",
+    "description": ""
+  },
+  "extensionInstalled": {
+    "message": "Extension installed successfully! Please refresh the page to enable new features.",
+    "description": "Message shown when extension is installed"
+  },
+  "extensionContextInvalidated": {
+    "message": "TG Downloader is bijgewerkt. Vernieuw de pagina om door te gaan.",
+    "description": "Banner shown when the extension context is invalidated after an update"
+  },
+  "clickToRefresh": {
+    "message": "Klik om de pagina te vernieuwen",
+    "description": "Tooltip for clickable refresh banners"
+  },
+  "export_chat_history": {
+    "message": "Exporteer chatgeschiedenis",
+    "description": "Hulp voor exportknop in chatkop"
+  },
+  "chat_media_export_title": {
+    "message": "Geavanceerd downloaden",
+    "description": "Tooltip for advanced download button in chat header"
+  }
+}

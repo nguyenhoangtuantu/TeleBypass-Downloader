@@ -1,0 +1,30 @@
+{
+  "name": {
+    "message": "Завантажувач відео з Telegram — Завантаження обмежених медіа",
+    "description": ""
+  },
+  "desc": {
+    "message": "Скачати відео з Телеграм: відео, фото, GIF і файли з закритих каналів і груп — кілька одразу, веб-версія.",
+    "description": ""
+  },
+  "extensionInstalled": {
+    "message": "Розширення успішно встановлено! Будь ласка, оновіть сторінку, щоб увімкнути нові функції.",
+    "description": "Message shown when extension is installed"
+  },
+  "extensionContextInvalidated": {
+    "message": "TG Downloader оновлено. Щоб продовжити, оновіть сторінку.",
+    "description": "Banner shown when the extension context is invalidated after an update"
+  },
+  "clickToRefresh": {
+    "message": "Натисніть, щоб оновити сторінку",
+    "description": "Tooltip for clickable refresh banners"
+  },
+  "export_chat_history": {
+    "message": "Експортувати історію чату",
+    "description": "Підказка для кнопки експорту в заголовку чату"
+  },
+  "chat_media_export_title": {
+    "message": "Розширене завантаження",
+    "description": "Tooltip for advanced download button in chat header"
+  }
+}

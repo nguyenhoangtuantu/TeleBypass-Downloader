@@ -1,0 +1,22 @@
+{
+  "name": {
+    "message": "Telegram-videolataaja - Lataa rajoitettua mediaa",
+    "description": ""
+  },
+  "desc": {
+    "message": "Lataa video Telegramista: videot, kuvat, GIF:t ja tiedostot kerralla yksityisistä kanavista ja ryhmistä.",
+    "description": ""
+  },
+  "extensionInstalled": {
+    "message": "Laajennus asennettu onnistuneesti! Päivitä sivu ottaaksesi uudet ominaisuudet käyttöön.",
+    "description": "Message shown when extension is installed"
+  },
+  "export_chat_history": {
+    "message": "Vie chat-historia",
+    "description": "Apuohjeet chat-otsikon ulkoasun kanssa"
+  },
+  "chat_media_export_title": {
+    "message": "Edistynyt lataus",
+    "description": "Tooltip for advanced download button in chat header"
+  }
+}

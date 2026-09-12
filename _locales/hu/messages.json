@@ -1,0 +1,22 @@
+{
+  "name": {
+    "message": "Telegram videóletöltő - Korlátozott média letöltése",
+    "description": ""
+  },
+  "desc": {
+    "message": "Telegram videó letöltés: videók, fotók, GIF-ek és fájlok egyszerre privát csatornákról és csoportokból a Telegram Weben.",
+    "description": ""
+  },
+  "extensionInstalled": {
+    "message": "A bővítmény sikeresen telepítve! Kérjük, frissítse az oldalt az új funkciók engedélyezéséhez.",
+    "description": "Message shown when extension is installed"
+  },
+  "export_chat_history": {
+    "message": "Chat előzmények exportálása",
+    "description": "Segítség a chat fejléc export gombjához"
+  },
+  "chat_media_export_title": {
+    "message": "Speciális letöltés",
+    "description": "Tooltip for advanced download button in chat header"
+  }
+}

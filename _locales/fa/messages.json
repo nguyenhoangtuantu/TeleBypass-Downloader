@@ -1,0 +1,30 @@
+{
+  "name": {
+    "message": "دانلودر ویدیو تلگرام - دانلود رسانه‌های محدودشده",
+    "description": ""
+  },
+  "desc": {
+    "message": "دانلود فیلم تلگرام: ویدیو، عکس، گیف و فایل را از کانال و گروه خصوصی چندتا با هم دانلود کنید.",
+    "description": ""
+  },
+  "extensionInstalled": {
+    "message": "افزونه با موفقیت نصب شد! لطفاً صفحه را تازه کنید تا ویژگی‌های جدید فعال شوند.",
+    "description": "Message shown when extension is installed"
+  },
+  "extensionContextInvalidated": {
+    "message": "TG Downloader به روز شده است. برای ادامه لطفاً صفحه را تازه سازی کنید.",
+    "description": "Banner shown when the extension context is invalidated after an update"
+  },
+  "clickToRefresh": {
+    "message": "برای تازه سازی صفحه کلیک کنید",
+    "description": "Tooltip for clickable refresh banners"
+  },
+  "export_chat_history": {
+    "message": "تاریخچه چت را صادر کنید",
+    "description": "راهنمایی برای دکمه صادر کردن در سرتیتر چت"
+  },
+  "chat_media_export_title": {
+    "message": "دانلود پیشرفته",
+    "description": "Tooltip for advanced download button in chat header"
+  }
+}

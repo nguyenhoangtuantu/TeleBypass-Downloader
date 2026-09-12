@@ -1,0 +1,22 @@
+{
+  "name": {
+    "message": "Telegram Video Downloader - Mag-download ng Restricted Media",
+    "description": ""
+  },
+  "desc": {
+    "message": "Telegram Video Downloader: i-download nang sabay-sabay ang video, photo, GIF at file mula sa private channels at groups.",
+    "description": ""
+  },
+  "extensionInstalled": {
+    "message": "Matagumpay na na-install ang extension! Mangyaring i-refresh ang pahina upang ma-enable ang mga bagong feature.",
+    "description": "Message shown when extension is installed"
+  },
+  "export_chat_history": {
+    "message": "I-export ang chat history",
+    "description": "Tulong para sa button ng pag-export sa header ng chat"
+  },
+  "chat_media_export_title": {
+    "message": "Advanced na Pag-download",
+    "description": "Tooltip for advanced download button in chat header"
+  }
+}

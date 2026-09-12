@@ -1,0 +1,22 @@
+{
+  "name": {
+    "message": "Prenos videoposnetkov iz Telegrama - Prenos omejenih medijev",
+    "description": ""
+  },
+  "desc": {
+    "message": "Prenesi video s Telegrama: videi, fotografije, GIF-i in datoteke iz zasebnih kanalov in skupin naenkrat na Telegram Web.",
+    "description": ""
+  },
+  "extensionInstalled": {
+    "message": "Razširitev je bila uspešno nameščena! Osvežite stran, da omogočite nove funkcije.",
+    "description": "Message shown when extension is installed"
+  },
+  "export_chat_history": {
+    "message": "Izvozi zgodovino pogovora",
+    "description": "Nasvet za gumb za izvoz v glavi pogovora"
+  },
+  "chat_media_export_title": {
+    "message": "Napredni prenos",
+    "description": "Tooltip for advanced download button in chat header"
+  }
+}
