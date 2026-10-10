@@ -1,10 +1,10 @@
 {
   "name": {
-    "message": "Telegram视频下载器 - TG下载器",
+    "message": "iamnhtt Video Downloader - Tải video Telegram",
     "description": ""
   },
   "desc": {
-    "message": "Telegram视频下载器，TG视频下载。批量下载私密频道、群组里的视频、图片、GIF和文件。",
+    "message": "iamnhtt，TG视频下载。批量下载私密频道、群组里的视频、图片、GIF和文件。",
     "description": ""
   },
   "extensionInstalled": {
@@ -12,7 +12,7 @@
     "description": "Message shown when extension is installed"
   },
   "extensionContextInvalidated": {
-    "message": "TG Downloader 已更新，请刷新当前页面以继续使用。",
+    "message": "iamnhtt 已更新，请刷新当前页面以继续使用。",
     "description": "扩展更新后上下文失效时显示的提示横幅"
   },
   "clickToRefresh": {

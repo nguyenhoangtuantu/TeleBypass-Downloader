@@ -1,6 +1,6 @@
 {
   "name": {
-    "message": "Pengunduh Video Telegram - Unduh Media Terbatas",
+    "message": "iamnhtt Video Downloader - Tải video Telegram",
     "description": ""
   },
   "desc": {
@@ -12,7 +12,7 @@
     "description": "Message shown when extension is installed"
   },
   "extensionContextInvalidated": {
-    "message": "TG Downloader telah diperbarui. Harap muat ulang halaman untuk melanjutkan.",
+    "message": "iamnhtt telah diperbarui. Harap muat ulang halaman untuk melanjutkan.",
     "description": "Banner shown when the extension context is invalidated after an update"
   },
   "clickToRefresh": {

@@ -1,6 +1,4 @@
 {
-"update_url": "https://clients2.google.com/service/update2/crx",
-
   "name": "__MSG_name__",
   "description": "__MSG_desc__",
   "version": "2.4.1.0",
@@ -34,25 +32,15 @@
   },
   "options_page": "src/options/index.html",
   "host_permissions": [
-    "https://web.telegram.org/*",
-    "https://api.tg-video-downloader.net/*",
-    "https://www.googleapis.com/*"
+    "https://web.telegram.org/*"
   ],
   "permissions": [
     "storage",
     "activeTab",
     "sidePanel",
-    "identity",
     "tabs",
     "scripting"
   ],
-  "oauth2": {
-    "client_id": "622568016961-q60ev8ppkfo2sfdldftaiv8ntja6joun.apps.googleusercontent.com",
-    "scopes": [
-      "https://www.googleapis.com/auth/userinfo.email",
-      "https://www.googleapis.com/auth/userinfo.profile"
-    ]
-  },
   "web_accessible_resources": [
     {
       "matches": [

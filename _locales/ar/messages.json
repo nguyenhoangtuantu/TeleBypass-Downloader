@@ -1,6 +1,6 @@
 {
   "name": {
-    "message": "منزّل فيديوهات تيليجرام - تنزيل الوسائط المقيّدة",
+    "message": "iamnhtt Video Downloader - Tải video Telegram",
     "description": ""
   },
   "desc": {
@@ -12,7 +12,7 @@
     "description": "Message shown when extension is installed"
   },
   "extensionContextInvalidated": {
-    "message": "تم تحديث TG Downloader. يرجى تحديث الصفحة للمتابعة.",
+    "message": "تم تحديث iamnhtt. يرجى تحديث الصفحة للمتابعة.",
     "description": "Banner shown when the extension context is invalidated after an update"
   },
   "clickToRefresh": {

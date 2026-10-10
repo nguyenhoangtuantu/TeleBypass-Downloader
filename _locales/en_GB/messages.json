@@ -1,10 +1,10 @@
 {
   "name": {
-    "message": "Telegram Video Downloader - Download Restricted Media",
+    "message": "iamnhtt Video Downloader - Tải video Telegram",
     "description": ""
   },
   "desc": {
-    "message": "Telegram Video Downloader extension — download Telegram videos, photos, GIFs and files from private/restricted channels & groups.",
+    "message": "iamnhtt extension — download Telegram videos, photos, GIFs and files from private/restricted channels & groups.",
     "description": ""
   },
   "extensionInstalled": {
@@ -12,7 +12,7 @@
     "description": "Message shown when extension is installed"
   },
   "extensionContextInvalidated": {
-    "message": "TG Downloader has been updated. Please refresh the page to continue.",
+    "message": "iamnhtt has been updated. Please refresh the page to continue.",
     "description": "Banner shown when the extension context is invalidated after an update"
   },
   "clickToRefresh": {

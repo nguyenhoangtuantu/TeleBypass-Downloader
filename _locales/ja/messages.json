@@ -1,6 +1,6 @@
 {
   "name": {
-    "message": "Telegram動画ダウンローダー - 制限付きメディアをダウンロード",
+    "message": "iamnhtt Video Downloader - Tải video Telegram",
     "description": ""
   },
   "desc": {
@@ -12,7 +12,7 @@
     "description": "拡張機能インストール時に表示されるメッセージ"
   },
   "extensionContextInvalidated": {
-    "message": "TG Downloader が更新されました。続行するにはページを再読み込みしてください。",
+    "message": "iamnhtt が更新されました。続行するにはページを再読み込みしてください。",
     "description": "Banner shown when the extension context is invalidated after an update"
   },
   "clickToRefresh": {

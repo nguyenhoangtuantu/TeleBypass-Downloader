@@ -1,6 +1,6 @@
 (function () {
-  if (window.__tgDownloaderMainLoaded) return;
-  window.__tgDownloaderMainLoaded = true;
+  if (window.__iamnhttMainLoaded) return;
+  window.__iamnhttMainLoaded = true;
 
   const contentRangeRegexRule = /^bytes (\d+)-(\d+)\/(\d+)$/;
 const REFRESH_DELAY = 500;
@@ -36,7 +36,7 @@ function getTrackedMediaUrlsSince(since) {
   audioInstances.forEach(({ audio, createdAt }) => {
     const url = audio.currentSrc || audio.src;
     if (!url || !isTrackedMediaUrl(url)) return;
-    const assignedAt = Number(audio.dataset?.tgDownloaderSrcAt || createdAt);
+    const assignedAt = Number(audio.dataset?.iamnhttSrcAt || createdAt);
     if (assignedAt < since && audio.paused) return;
     items.push({ url, time: assignedAt, source: 'audio-instance' });
   });
@@ -53,8 +53,8 @@ function getTrackedMediaUrlsSince(since) {
 }
 
 (function hookAudioConstructor() {
-  if (window.__tgDownloaderAudioCtorHook) return;
-  window.__tgDownloaderAudioCtorHook = true;
+  if (window.__iamnhttAudioCtorHook) return;
+  window.__iamnhttAudioCtorHook = true;
   const OrigAudio = window.Audio;
   window.Audio = function (...args) {
     const audio = new OrigAudio(...args);
@@ -66,8 +66,8 @@ function getTrackedMediaUrlsSince(since) {
 })();
 
 (function hookMediaElementSrc() {
-  if (window.__tgDownloaderMediaSrcHook) return;
-  window.__tgDownloaderMediaSrcHook = true;
+  if (window.__iamnhttMediaSrcHook) return;
+  window.__iamnhttMediaSrcHook = true;
   const srcDescriptor = Object.getOwnPropertyDescriptor(HTMLMediaElement.prototype, 'src');
   if (!srcDescriptor?.set) return;
   Object.defineProperty(HTMLMediaElement.prototype, 'src', {
@@ -77,7 +77,7 @@ function getTrackedMediaUrlsSince(since) {
     set(value) {
       trackMediaUrl(value, 'src');
       try {
-        this.dataset.tgDownloaderSrcAt = String(Date.now());
+        this.dataset.iamnhttSrcAt = String(Date.now());
       } catch (error) {
         // ignore
       }
@@ -87,14 +87,14 @@ function getTrackedMediaUrlsSince(since) {
 })();
 
 (function hookSetAttribute() {
-  if (window.__tgDownloaderSetAttributeHook) return;
-  window.__tgDownloaderSetAttributeHook = true;
+  if (window.__iamnhttSetAttributeHook) return;
+  window.__iamnhttSetAttributeHook = true;
   const origSetAttribute = Element.prototype.setAttribute;
   Element.prototype.setAttribute = function (name, value) {
     if (name === 'src' && value && (this instanceof HTMLMediaElement || this.tagName === 'AUDIO' || this.tagName === 'VIDEO')) {
       trackMediaUrl(String(value), 'setAttribute');
       try {
-        this.dataset.tgDownloaderSrcAt = String(Date.now());
+        this.dataset.iamnhttSrcAt = String(Date.now());
       } catch (error) {
         // ignore
       }
@@ -104,8 +104,8 @@ function getTrackedMediaUrlsSince(since) {
 })();
 
 (function hookFetch() {
-  if (window.__tgDownloaderFetchHook) return;
-  window.__tgDownloaderFetchHook = true;
+  if (window.__iamnhttFetchHook) return;
+  window.__iamnhttFetchHook = true;
   const origFetch = window.fetch;
   window.fetch = function (input, init) {
     const url = typeof input === 'string' ? input : input?.url;
@@ -115,8 +115,8 @@ function getTrackedMediaUrlsSince(since) {
 })();
 
 (function hookCreateObjectURL() {
-  if (window.__tgDownloaderBlobHook) return;
-  window.__tgDownloaderBlobHook = true;
+  if (window.__iamnhttBlobHook) return;
+  window.__iamnhttBlobHook = true;
   const origCreateObjectURL = URL.createObjectURL;
   URL.createObjectURL = function (blob) {
     const url = origCreateObjectURL.call(URL, blob);
@@ -133,7 +133,7 @@ function respondWithTrackedMediaUrls(event) {
   const items = getTrackedMediaUrlsSince(since);
   window.postMessage(
     {
-      type: 'TG_DOWNLOADER_MEDIA_URLS_RESPONSE',
+      type: 'IAMNHTT_MEDIA_URLS_RESPONSE',
       requestId: event.data.requestId,
       items,
       urls: items.map((item) => item.url),
@@ -144,16 +144,16 @@ function respondWithTrackedMediaUrls(event) {
 
 window.addEventListener('message', function (event) {
   if (event.source !== window || !event.data) return;
-  if (event.data.type === 'TG_DOWNLOADER_GET_MEDIA_URLS' || event.data.type === 'TG_DOWNLOADER_GET_AUDIO_SRCS') {
+  if (event.data.type === 'IAMNHTT_GET_MEDIA_URLS' || event.data.type === 'IAMNHTT_GET_AUDIO_SRCS') {
     respondWithTrackedMediaUrls(event);
   }
 });
 
-document.addEventListener('tg_downloader_get_media_urls', function (event) {
+document.addEventListener('iamnhtt_get_media_urls', function (event) {
   const { requestId, since } = event.detail || {};
   const items = getTrackedMediaUrlsSince(typeof since === 'number' ? since : 0);
   document.dispatchEvent(
-    new CustomEvent('tg_downloader_media_urls_response', {
+    new CustomEvent('iamnhtt_media_urls_response', {
       detail: {
         requestId,
         items,
@@ -167,7 +167,7 @@ document.addEventListener('tg_downloader_get_media_urls', function (event) {
  * 关闭高级导出后重置 Telegram Web K 布局。
  * 在 page world 执行，才能驱动 windowSize / updateColumnWidths。
  */
-document.addEventListener('tg_downloader_reset_layout', function () {
+document.addEventListener('iamnhtt_reset_layout', function () {
   try {
     const root = document.documentElement;
     const body = document.body;
@@ -193,7 +193,7 @@ document.addEventListener('tg_downloader_reset_layout', function () {
       page.style.removeProperty('margin-right');
       page.style.removeProperty('transform');
       page.style.removeProperty('left');
-      page.removeAttribute('data-tg-downloader-shift-fix');
+      page.removeAttribute('data-iamnhtt-shift-fix');
     }
 
     // 按当前视口同步关键列宽变量（对齐 tweb updateColumnWidths）
@@ -279,7 +279,7 @@ function shouldStartDownload(videoUrl, videoId) {
   const now = Date.now();
   const lastStartedAt = recentDownloadKeys.get(key);
   if (lastStartedAt && now - lastStartedAt < DOWNLOAD_DEDUP_MS) {
-    console.warn('[TG Downloader] Skip duplicate download:', key);
+    console.warn('[iamnhtt] Skip duplicate download:', key);
     return false;
   }
   recentDownloadKeys.set(key, now);
@@ -405,7 +405,7 @@ document.addEventListener('media_download_event', function (e) {
 // postMessage 仅作为兜底
 window.addEventListener('message', function (event) {
   if (event.source !== window || !event.data) return;
-  if (event.data.type !== 'TG_DOWNLOADER_MEDIA_DOWNLOAD') return;
+  if (event.data.type !== 'IAMNHTT_MEDIA_DOWNLOAD') return;
   handleMediaDownloadDetail(event.data.detail);
 });
 
@@ -430,7 +430,6 @@ const downloadVideo = (url, id = '', page, download_id, detail) => {
       headers: {
         Range: `bytes=${nextOffset}-`,
       },
-      'User-Agent': UserAgent,
     })
       .then(async (res) => {
         if (![200, 206].includes(res.status)) {
@@ -513,15 +512,21 @@ const downloadVideo = (url, id = '', page, download_id, detail) => {
     const customFilename = resolveDownloadFilename(detail, fileName, fileExtension || 'mp4');
     const blobType = fileExtension ? `${detail?.fileType === 'audio' ? 'audio' : 'video'}/${fileExtension}` : detail?.fileType === 'audio' ? 'audio/mpeg' : 'video/mp4';
     const blob = new Blob(blobs, { type: blobType });
+    blobs = [];
     const blobUrl = window.URL.createObjectURL(blob);
 
     const a = document.createElement('a');
+    a.style.display = 'none';
     document.body.appendChild(a);
     a.href = blobUrl;
     a.download = customFilename;
     a.click();
-    document.body.removeChild(a);
-    window.URL.revokeObjectURL(blobUrl);
+    setTimeout(() => {
+      try {
+        if (a.parentNode) document.body.removeChild(a);
+        window.URL.revokeObjectURL(blobUrl);
+      } catch (_) {}
+    }, 60000);
     updateProgress(100, id, page, download_id);
   };
 
@@ -576,12 +581,12 @@ async function handleDownload(url, id, page, download_id, detail) {
             o = { Range: `bytes=${t}-${a}` };
           return () =>
             fetch(url, { credentials: 'include', headers: o }).then((res) => {
-              if (408 === res.status) {
+              if (!res.ok) {
                 throw Error('fetch Error', {
                   cause: {
                     range: `bytes=${t}-${a}`,
                     index: r,
-                    response: res,
+                    status: res.status,
                   },
                 });
               }
@@ -591,7 +596,7 @@ async function handleDownload(url, id, page, download_id, detail) {
             });
         }),
       name = extractFileNameFromUrl(url, f) || `${id || 'media'}.${inferExtensionFromMime(f, 'mp4')}`,
-      h = await fetchResults(progress, 20, '11'),
+      h = await fetchResults(progress, 10, true),
       m = new Blob(h, { type: f || 'application/octet-stream' });
     let downloadUrl = URL.createObjectURL(m);
     const customFilename = resolveDownloadFilename(detail, name, inferExtensionFromMime(f, 'mp4'));
@@ -610,28 +615,33 @@ async function handleDownload(url, id, page, download_id, detail) {
   }
 }
 
-async function fetchResults(tasks, batchSize, retryOnError) {
-  let results = [],
-    currentIndex = 0;
+async function fetchResults(tasks, concurrency = 10, retryOnError = true) {
+  const results = new Array(tasks.length);
+  let nextTaskIndex = 0;
+  const maxRetries = retryOnError ? 5 : 1;
 
-  while (currentIndex < tasks.length) {
-    let batch = tasks.slice(currentIndex, currentIndex + batchSize).map((task) => task());
-    try {
-      let batchResults = await Promise.all(batch);
-      results.push(...batchResults);
-      currentIndex += batchSize;
-    } catch (error) {
-      if (error instanceof Error) {
-        if (retryOnError && error.message === 'fetch Error') {
-          let { index } = error.cause;
-          currentIndex = index;
-          await delay(1000);
+  async function worker() {
+    while (nextTaskIndex < tasks.length) {
+      const index = nextTaskIndex++;
+      let attempt = 0;
+      while (true) {
+        try {
+          results[index] = await tasks[index]();
+          break;
+        } catch (error) {
+          attempt++;
+          if (attempt >= maxRetries) {
+            throw error;
+          }
+          await delay(800 * attempt);
         }
-      } else {
-        throw error;
       }
     }
   }
+
+  const workerCount = Math.min(concurrency, tasks.length);
+  const workers = Array.from({ length: workerCount }, () => worker());
+  await Promise.all(workers);
   return results;
 }
 
@@ -642,9 +652,21 @@ async function delay(e) {
     }, e);
   });
 }
-function saveFile(e, t, n) {
-  let r = document.createElement('a');
-  ((r.href = e), (r.download = t), r.click());
+function saveFile(url, filename) {
+  const a = document.createElement('a');
+  a.style.display = 'none';
+  document.body.appendChild(a);
+  a.href = url;
+  a.download = filename;
+  a.click();
+  setTimeout(() => {
+    try {
+      if (a.parentNode) document.body.removeChild(a);
+      if (typeof url === 'string' && url.startsWith('blob:')) {
+        window.URL.revokeObjectURL(url);
+      }
+    } catch (_) {}
+  }, 60000);
 }
 
 function extractFileNameFromUrl(url, type) {

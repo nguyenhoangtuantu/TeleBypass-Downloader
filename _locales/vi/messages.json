@@ -1,6 +1,6 @@
 {
   "name": {
-    "message": "Trình tải video Telegram - Tải xuống nội dung bị hạn chế",
+    "message": "iamnhtt Video Downloader - Tải video Telegram",
     "description": ""
   },
   "desc": {
@@ -12,7 +12,7 @@
     "description": "Message shown when extension is installed"
   },
   "extensionContextInvalidated": {
-    "message": "TG Downloader đã được cập nhật. Vui lòng tải lại trang để tiếp tục.",
+    "message": "iamnhtt đã được cập nhật. Vui lòng tải lại trang để tiếp tục.",
     "description": "Banner shown when the extension context is invalidated after an update"
   },
   "clickToRefresh": {

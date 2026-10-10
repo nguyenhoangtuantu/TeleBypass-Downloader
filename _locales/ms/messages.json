@@ -1,6 +1,6 @@
 {
   "name": {
-    "message": "Pemuat Turun Video Telegram - Muat Turun Media Terhad",
+    "message": "iamnhtt Video Downloader - Tải video Telegram",
     "description": ""
   },
   "desc": {
@@ -8,7 +8,7 @@
     "description": ""
   },
   "extensionInstalled": {
-    "message": "Pemuat turun Telegram - Telegram video downloader",
+    "message": "Pemuat turun Telegram - iamnhtt",
     "description": ""
   },
   "export_chat_history": {

@@ -1,10 +1,10 @@
 {
   "name": {
-    "message": "Telegram影片下載器 - Telegram Downloader",
+    "message": "iamnhtt Video Downloader - Tải video Telegram",
     "description": ""
   },
   "desc": {
-    "message": "Telegram影片下載器，TG影片下載。批次下載私人頻道、群組的影片、照片、GIF 和檔案。",
+    "message": "iamnhtt，TG影片下載。批次下載私人頻道、群組的影片、照片、GIF 和檔案。",
     "description": ""
   },
   "extensionInstalled": {
@@ -12,7 +12,7 @@
     "description": "擴充功能安裝時顯示的訊息"
   },
   "extensionContextInvalidated": {
-    "message": "TG Downloader 已更新，請重新整理目前頁面後繼續使用。",
+    "message": "iamnhtt 已更新，請重新整理目前頁面後繼續使用。",
     "description": "擴充功能更新後上下文失效時顯示的提示橫幅"
   },
   "clickToRefresh": {

@@ -34,8 +34,6 @@
 
   // 帮助弹窗状态
   const helpDialogVisible = ref(false);
-  const supportEmail = 'support@tg-video-downloader.net';
-  const isCopied = ref(false);
 
   // 检查用户认证状态
   const checkAuthStatus = async () => {
@@ -337,31 +335,6 @@
     helpDialogVisible.value = true;
   };
 
-  // 复制邮箱到剪贴板
-  const copyEmail = async () => {
-    try {
-      await navigator.clipboard.writeText(supportEmail);
-      isCopied.value = true;
-      // 2秒后重置状态
-      setTimeout(() => {
-        isCopied.value = false;
-      }, 2000);
-    } catch (err) {
-      console.error('Failed to copy:', err);
-      // 降级方案：使用传统方法
-      const textArea = document.createElement('textarea');
-      textArea.value = supportEmail;
-      document.body.appendChild(textArea);
-      textArea.select();
-      document.execCommand('copy');
-      document.body.removeChild(textArea);
-      isCopied.value = true;
-      setTimeout(() => {
-        isCopied.value = false;
-      }, 2000);
-    }
-  };
-
   // 监听认证状态变化
   const handleAuthStateChange = async (message: any) => {
     if (message.type === 'auth-login-success' || message.type === 'auth-register-success' || message.type === 'subscription-success') {
@@ -610,37 +583,6 @@
               <p class="text-gray-600 leading-relaxed max-w-sm mx-auto">
                 {{ t('options.helpDialog.description') }}
               </p>
-            </div>
-
-            <!-- 邮箱显示和复制区域 -->
-            <div class="bg-gradient-to-r from-blue-50 to-indigo-50 rounded-2xl p-6 mb-6 border border-blue-100 shadow-sm">
-              <div class="flex items-center justify-center mb-5">
-                <div class="flex items-center bg-white rounded-xl px-4 py-3 shadow-sm border border-gray-100">
-                  <div class="flex items-center justify-center w-10 h-10 bg-blue-600 rounded-lg mr-4 shadow-md">
-                    <v-icon color="white" size="20"> mdi-email </v-icon>
-                  </div>
-                  <div class="text-left">
-                    <div class="text-xs text-gray-500 font-medium mb-1">
-                      {{ t('options.helpDialog.title') }}
-                    </div>
-                    <div class="text-base font-bold text-gray-800 select-all">
-                      {{ supportEmail }}
-                    </div>
-                  </div>
-                </div>
-              </div>
-
-              <v-btn
-                :color="isCopied ? 'success' : 'primary'"
-                :variant="isCopied ? 'flat' : 'elevated'"
-                size="large"
-                class="px-8 py-3 rounded-xl font-semibold text-white shadow-lg hover:shadow-xl transform hover:-translate-y-0.5 transition-all duration-200"
-                :class="isCopied ? 'bg-green-500 hover:bg-green-600' : 'bg-blue-600 hover:bg-blue-700'"
-                @click="copyEmail"
-              >
-                <v-icon :icon="isCopied ? 'mdi-check-circle' : 'mdi-content-copy'" class="mr-2" size="20" />
-                {{ isCopied ? t('options.helpDialog.copied') : t('options.helpDialog.copyButton') }}
-              </v-btn>
             </div>
 
             <!-- 响应时间提示 -->

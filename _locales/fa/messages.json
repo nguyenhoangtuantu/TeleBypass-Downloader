@@ -1,6 +1,6 @@
 {
   "name": {
-    "message": "دانلودر ویدیو تلگرام - دانلود رسانه‌های محدودشده",
+    "message": "iamnhtt Video Downloader - Tải video Telegram",
     "description": ""
   },
   "desc": {
@@ -12,7 +12,7 @@
     "description": "Message shown when extension is installed"
   },
   "extensionContextInvalidated": {
-    "message": "TG Downloader به روز شده است. برای ادامه لطفاً صفحه را تازه سازی کنید.",
+    "message": "iamnhtt به روز شده است. برای ادامه لطفاً صفحه را تازه سازی کنید.",
     "description": "Banner shown when the extension context is invalidated after an update"
   },
   "clickToRefresh": {
