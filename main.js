@@ -58,8 +58,19 @@ function getTrackedMediaUrlsSince(since) {
   const OrigAudio = window.Audio;
   window.Audio = function (...args) {
     const audio = new OrigAudio(...args);
-    audioInstances.push({ audio, createdAt: Date.now() });
-    if (audioInstances.length > 80) audioInstances.shift();
+    const entry = { audio, createdAt: Date.now() };
+    const removeInstance = () => {
+      const idx = audioInstances.indexOf(entry);
+      if (idx !== -1) audioInstances.splice(idx, 1);
+    };
+    audio.addEventListener('ended', removeInstance, { once: true });
+    audio.addEventListener('pause', () => {
+      setTimeout(() => {
+        if (audio.paused) removeInstance();
+      }, 5000);
+    });
+    audioInstances.push(entry);
+    if (audioInstances.length > 5) audioInstances.shift();
     return audio;
   };
   window.Audio.prototype = OrigAudio.prototype;
@@ -503,6 +514,7 @@ const downloadVideo = (url, id = '', page, download_id, detail) => {
         }
       })
       .catch((reason) => {
+        blobs = [];
         console.error(reason, fileName);
         dispatchDownloadError(id, page, download_id, reason);
       });
@@ -526,7 +538,7 @@ const downloadVideo = (url, id = '', page, download_id, detail) => {
         if (a.parentNode) document.body.removeChild(a);
         window.URL.revokeObjectURL(blobUrl);
       } catch (_) {}
-    }, 60000);
+    }, 3000);
     updateProgress(100, id, page, download_id);
   };
 
@@ -598,6 +610,7 @@ async function handleDownload(url, id, page, download_id, detail) {
       name = extractFileNameFromUrl(url, f) || `${id || 'media'}.${inferExtensionFromMime(f, 'mp4')}`,
       h = await fetchResults(progress, 10, true),
       m = new Blob(h, { type: f || 'application/octet-stream' });
+    h = null;
     let downloadUrl = URL.createObjectURL(m);
     const customFilename = resolveDownloadFilename(detail, name, inferExtensionFromMime(f, 'mp4'));
     saveFile(downloadUrl, customFilename);
@@ -666,7 +679,7 @@ function saveFile(url, filename) {
         window.URL.revokeObjectURL(url);
       }
     } catch (_) {}
-  }, 60000);
+  }, 3000);
 }
 
 function extractFileNameFromUrl(url, type) {
