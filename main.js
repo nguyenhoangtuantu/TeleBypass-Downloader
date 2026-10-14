@@ -384,6 +384,19 @@ function resolveDownloadFilename(detail, fallbackName, fallbackExt = 'mp4') {
   return ensureFileExtension(`${customTitle}_${fallback}`, safeExt);
 }
 
+async function runBatchQueue(items, concurrency = 2, workerFn) {
+  let nextIndex = 0;
+  async function worker() {
+    while (nextIndex < items.length) {
+      const current = items[nextIndex++];
+      await workerFn(current);
+    }
+  }
+  const workerCount = Math.min(concurrency, items.length);
+  const workers = Array.from({ length: workerCount }, () => worker());
+  await Promise.all(workers);
+}
+
 function handleMediaDownloadDetail(detail) {
   if (!detail) return;
   if (detail.type == 'single') {
@@ -395,16 +408,18 @@ function handleMediaDownloadDetail(detail) {
       dispatchDownloadError(video_id, page, download_id, error);
     });
   } else if (detail.type == 'batch') {
-    const video_list = detail.video_src;
-    for (let i = 0; i < video_list.length; i++) {
-      const { video_url, video_id, page, download_id } = video_list[i];
-      if (!shouldStartDownload(video_url, video_id)) {
-        continue;
-      }
-      handleDownload(video_url, video_id, page, download_id, detail).catch((error) => {
+    const video_list = detail.video_src || [];
+    const filteredList = video_list.filter(({ video_url, video_id }) => shouldStartDownload(video_url, video_id));
+    runBatchQueue(filteredList, 2, async (item) => {
+      const { video_url, video_id, page, download_id } = item;
+      try {
+        await handleDownload(video_url, video_id, page, download_id, detail);
+      } catch (error) {
         dispatchDownloadError(video_id, page, download_id, error);
-      });
-    }
+      }
+    }).catch((err) => {
+      console.error('[iamnhtt] Batch queue error:', err);
+    });
   }
 }
 
