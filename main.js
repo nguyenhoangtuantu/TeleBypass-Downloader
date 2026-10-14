@@ -5,6 +5,7 @@
   const contentRangeRegexRule = /^bytes (\d+)-(\d+)\/(\d+)$/;
 const REFRESH_DELAY = 500;
 const DOWNLOAD_DEDUP_MS = 3000;
+const safeTargetOrigin = typeof window !== 'undefined' && window.location?.origin && window.location.origin !== 'null' ? window.location.origin : '*';
 const recentDownloadKeys = new Map();
 const recentMediaUrls = [];
 const audioInstances = [];
@@ -149,7 +150,7 @@ function respondWithTrackedMediaUrls(event) {
       items,
       urls: items.map((item) => item.url),
     },
-    '*',
+    safeTargetOrigin,
   );
 }
 
@@ -1514,10 +1515,10 @@ window.addEventListener('message', (event) => {
     const requestId = event.data.requestId;
     Promise.resolve(tgEnsureKSidebarMediaOpen())
       .then((success) => {
-        window.postMessage({ type: 'TG_ENSURE_K_SIDEBAR_MEDIA_RESULT', requestId, success: !!success }, '*');
+        window.postMessage({ type: 'TG_ENSURE_K_SIDEBAR_MEDIA_RESULT', requestId, success: !!success }, safeTargetOrigin);
       })
       .catch(() => {
-        window.postMessage({ type: 'TG_ENSURE_K_SIDEBAR_MEDIA_RESULT', requestId, success: false }, '*');
+        window.postMessage({ type: 'TG_ENSURE_K_SIDEBAR_MEDIA_RESULT', requestId, success: false }, safeTargetOrigin);
       });
     return;
   }
@@ -1526,10 +1527,10 @@ window.addEventListener('message', (event) => {
     const requestId = event.data.requestId;
     Promise.resolve(tgEnsureASidebarMediaOpen())
       .then((success) => {
-        window.postMessage({ type: 'TG_ENSURE_A_SIDEBAR_MEDIA_RESULT', requestId, success: !!success }, '*');
+        window.postMessage({ type: 'TG_ENSURE_A_SIDEBAR_MEDIA_RESULT', requestId, success: !!success }, safeTargetOrigin);
       })
       .catch(() => {
-        window.postMessage({ type: 'TG_ENSURE_A_SIDEBAR_MEDIA_RESULT', requestId, success: false }, '*');
+        window.postMessage({ type: 'TG_ENSURE_A_SIDEBAR_MEDIA_RESULT', requestId, success: false }, safeTargetOrigin);
       });
     return;
   }
@@ -1538,10 +1539,10 @@ window.addEventListener('message', (event) => {
     const requestId = event.data.requestId;
     Promise.resolve(tgCloseKMediaViewer())
       .then((success) => {
-        window.postMessage({ type: 'TG_CLOSE_K_MEDIA_VIEWER_RESULT', requestId, success: !!success }, '*');
+        window.postMessage({ type: 'TG_CLOSE_K_MEDIA_VIEWER_RESULT', requestId, success: !!success }, safeTargetOrigin);
       })
       .catch(() => {
-        window.postMessage({ type: 'TG_CLOSE_K_MEDIA_VIEWER_RESULT', requestId, success: false }, '*');
+        window.postMessage({ type: 'TG_CLOSE_K_MEDIA_VIEWER_RESULT', requestId, success: false }, safeTargetOrigin);
       });
     return;
   }
@@ -1550,10 +1551,10 @@ window.addEventListener('message', (event) => {
     const requestId = event.data.requestId;
     Promise.resolve(tgClickKSidebarMediaByMid(event.data.mid))
       .then((success) => {
-        window.postMessage({ type: 'TG_CLICK_K_SIDEBAR_MEDIA_RESULT', requestId, success: !!success }, '*');
+        window.postMessage({ type: 'TG_CLICK_K_SIDEBAR_MEDIA_RESULT', requestId, success: !!success }, safeTargetOrigin);
       })
       .catch(() => {
-        window.postMessage({ type: 'TG_CLICK_K_SIDEBAR_MEDIA_RESULT', requestId, success: false }, '*');
+        window.postMessage({ type: 'TG_CLICK_K_SIDEBAR_MEDIA_RESULT', requestId, success: false }, safeTargetOrigin);
       });
     return;
   }
@@ -1562,10 +1563,10 @@ window.addEventListener('message', (event) => {
   const requestId = event.data.requestId;
   Promise.resolve(tgActivateKMediaTab())
     .then((success) => {
-      window.postMessage({ type: 'TG_ENSURE_K_MEDIA_TAB_RESULT', requestId, success: !!success }, '*');
+      window.postMessage({ type: 'TG_ENSURE_K_MEDIA_TAB_RESULT', requestId, success: !!success }, safeTargetOrigin);
     })
     .catch(() => {
-      window.postMessage({ type: 'TG_ENSURE_K_MEDIA_TAB_RESULT', requestId, success: false }, '*');
+      window.postMessage({ type: 'TG_ENSURE_K_MEDIA_TAB_RESULT', requestId, success: false }, safeTargetOrigin);
     });
 });
 })();
