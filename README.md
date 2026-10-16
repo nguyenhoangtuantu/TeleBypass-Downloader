@@ -8,7 +8,7 @@
 
 [![Manifest V3](https://img.shields.io/badge/Manifest-V3-success?style=for-the-badge&logo=googlechrome&logoColor=white)](manifest.json)
 [![Platform Telegram Web](https://img.shields.io/badge/Telegram_Web-K_%26_A-0088cc?style=for-the-badge&logo=telegram&logoColor=white)](https://web.telegram.org)
-[![License: MIT](https://img.shields.io/badge/License-MIT-blue?style=for-the-badge)](LICENSE)
+[![License: GPL v3](https://img.shields.io/badge/License-GPLv3-blue?style=for-the-badge)](LICENSE)
 [![GitHub stars](https://img.shields.io/github/stars/nguyenhoangtuantu/TeleBypass-Downloader?style=for-the-badge&color=ffd700)](https://github.com/nguyenhoangtuantu/TeleBypass-Downloader/stargazers)
 [![PRs Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen?style=for-the-badge)](https://github.com/nguyenhoangtuantu/TeleBypass-Downloader/pulls)
 
