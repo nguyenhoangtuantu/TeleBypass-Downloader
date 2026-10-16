@@ -13,6 +13,6 @@ initApp();
 
 chrome.tabs.query({ active: !0 }, (e) => {
   if (!e[0]?.url?.includes('web.telegram.org')) {
-    chrome.tabs.create({ url: 'https://web.telegram.org/k' });
+    chrome.tabs.create({ url: 'https://web.telegram.org/a/' });
   }
 });
